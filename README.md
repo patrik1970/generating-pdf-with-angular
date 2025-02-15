@@ -24,7 +24,6 @@ PdfGeneratorApp is an Angular application that demonstrates how to generate PDF 
 
 The project has the following structure:
 
-```
 generating-pdf-with-angular/
   ├── .angular/
   ├── .vscode/
@@ -57,7 +56,6 @@ generating-pdf-with-angular/
   ├── tsconfig.app.json
   ├── tsconfig.json
   └── tsconfig.spec.json
-```
 
 ## Development Server
 
