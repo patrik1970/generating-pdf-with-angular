@@ -9,8 +9,10 @@ export class PdfService {
   constructor() { }
 
   generatePdf() {
+    // Create a new jsPDF instance
     const doc = new jsPDF();
 
+    // Set the document properties
     doc.setFontSize(22);
     doc.text('Custom PDF Document', 10, 10);
 
@@ -20,6 +22,7 @@ export class PdfService {
     doc.setFontSize(16);
     doc.text('This is a sample PDF generated using jsPDF in Angular.' , 10, 35);
 
+    // Save the PDF
     doc.save('sample.pdf');
   }
 }
